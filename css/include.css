@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{
+	height:80px;
+	background:#a40117;
+}
+#header h1{
+	float:left;
+	line-height:80px;
+}
+#header h1 a{
+	height:100%;
+	display:block;
+}
+#header h1 img{
+}
+
+.gnb{
+	height:80px;
+	line-height:80px;
+	margin-left:20px;
+	float:left;
+}
+.gnb li{
+	width:68px;
+	padding:0 10px;
+	text-align:center;
+	float:left;
+	font-size:14px;
+}
+.gnb a{
+	color:#fff;
+}
+
+.utill{
+	line-height:80px;
+	float:right;
+}
+.utill li{
+	float:left;
+	padding:0 10px;
+}
+.utill a{
+	display:block;
+}
+.utill img{
+	width:18px;
+	vertical-align:middle;
+}
+
+/*footer*/
+#footer{}
+
+.fTop{
+	background:#5a5a5a;
+	color:#fff;
+	padding:50px 0;
+	text-align:center;
+}
+.fTop dl{
+	width:150px;
+	display:inline-block;
+	text-align:left;
+	padding:0 50px;
+}
+.fTop dt{
+	display:inline-block;
+	position:relative;
+	margin-bottom:25px;
+}
+.fTop dt:after{
+	content:"";
+	display:inline-block;
+	width:100%;
+	height:1px;
+	background:#fff;
+	position:absolute;
+	left:0;
+	top:30px;
+}
+.fTop dd a{
+	line-height:30px;
+	font-size:14px;
+	font-weight:200;
+	color:#fff;
+}
+.fTop dd:hover a{
+	border-bottom:1px solid #fff;
+}
+
+.fBottom{
+	background:#a40117;
+	color:#fff;
+	position:relative;
+}
+
+.fInfo{
+	height:40px;
+	line-height:40px;
+}
+.fInfo:after{
+	content:"";
+	display:block;
+	width:100%;
+	height:1px;
+	background:#c36874;
+	position:absolute;
+	left:0;
+	top:40px;
+}
+.fInfo li{
+	float:left;
+	font-size:14px;
+}
+.fInfo li:after{
+	content:"";
+	display:inline-block;
+	width:1px;
+	height:10px;
+	background:#c36874;
+	margin:0 5px;
+}
+.fInfo li:last-child:after{
+	display:none;
+}
+.fInfo a{
+	color:#fff;
+}
+.familySite{
+	width:100px;
+	float:right;
+	font-size:14px;
+	background:url(../images/main/moreBtn.png) no-repeat right center;
+}
+.familySite a{
+	display:block;
+}
+
+.fCs{
+	padding:50px 0;
+}
+.fCs img{
+	margin-bottom:30px;
+}
+.cs dl{
+	float:left;
+}
+.cs dt{
+	margin:20px 0;
+	font-size:17px;
+	font-weight:200;
+}
+.sns{
+	float:right;
+}
+.sns li{
+	float:left;
+}
+.sns li a{}
+.sns li img{
+	vertical-align:middle;
+}
+
+.call{}
+.call dd{
+	font-size:26px;
+}
+
+.bInfo{
+	margin-left:100px;
+}
+.bInfo dd{
+	font-size:12px;
+	font-weight:300;
+	line-height:26px;
+}
+.bInfo span{
+	margin-left:20px;
+}
+
+.fCs p{
+	font-weight:200;
+	color:#dd9080;
+	text-align:center;
+	margin-top:60px;
+}
+
+.fCs .topBtn{
+	width:40px;
+	height:40px;
+	line-height:48px;
+	background:#fff url(../images/main/b_top.png) no-repeat center 8px;
+	text-align:center;
+	position:fixed;
+	right:150px;
+	bottom:30px;
+	border:1px solid #a40117;
+}
+.fCs .topBtn a{
+	color:#a40117;
+	font-size:13px;
+}
+
+
+
+
+
+
+
